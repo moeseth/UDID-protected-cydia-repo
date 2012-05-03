@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteBase /your_repo_folder/
+RewriteRule ^(Release)$ release.php
+RewriteRule ^(Packages.*)$ package.php
